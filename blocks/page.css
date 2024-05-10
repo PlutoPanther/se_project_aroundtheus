@@ -1,10 +1,27 @@
 .page {
   background-color: black;
   color: white;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  font-feature-settings: "liga" 1, "calt" 1;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+
+.page__section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 880px;
+  margin: auto;
+  align-items: center;
+  display: grid;
+}
+
 .page__content {
-  margin-left: 200px;
-  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1100px) {
+  .page__section {
+    margin: 0 20px;
+    max-width: calc(100% - 40px);
+  }
 }
