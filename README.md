@@ -14,17 +14,4 @@ This project is made so all the elements are displayed correctly on popular scre
 
 - [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
 
-**Images**
-![add-button](./images/add-button.svg)
-![edit-button](./images/edit-button.svg)
-![like-button](./images/like-button.svg)
-![jacques-cousteau](./images/jacques-cousteau.jpg)
-![bald-mountains](./images/bald-mountains.jpg)
-![lago](./images/lago.jpg)
-![lake-louise](./images/lake-louise.jpg)
-![latemar](./images/latemar.jpg)
-![aroundtheUSlogo](./images/logo.svg)
-![vanoise](./images/vanoise.jpg)
-![yosemite](./images/yosemite.jpg)
-
 Good luck and have fun!
