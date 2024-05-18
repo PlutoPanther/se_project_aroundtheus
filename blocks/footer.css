@@ -7,14 +7,36 @@
 .footer__copyright {
   margin-top: 0;
   margin-bottom: 0;
+  width: 318px;
+  height: 18px;
+  opacity: 0px;
+  top: 2762px;
+  left: 19px;
+  gap: 0px;
 }
 @media screen and (max-width: 800px) {
   .footer {
     padding: 0 19px 36px;
   }
+  .footer__copyright {
+    width: 282px;
+    height: 14px;
+    top: 2762px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+  }
 }
 @media screen and (max-width: 320px) {
   .footer {
     padding: 0 0 36px;
+  }
+  .footer__copyright {
+    width: 282px;
+    height: 14px;
+    top: 2762px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
   }
 }
