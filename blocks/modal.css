@@ -63,7 +63,7 @@
   opacity: 0px;
 }
 
-.page__modal_form-input--name {
+.page__modal_form-input_name {
   width: 341px;
   height: 27.26px;
   border: 1px 0px 0px 0px;
@@ -74,7 +74,7 @@
   padding: 0 0 0 15px;
 }
 
-.page__modal_form-input--description {
+.page__modal_form-input_description {
   width: 341px;
   height: 27.34px;
   border: 1px 0px 0px 0px;
