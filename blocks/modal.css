@@ -59,22 +59,15 @@
   justify-content: space-evenly;
   width: 358px;
   height: 330px;
-  top: 195px;
-  left: 425px;
-  gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
 
 .modal__form_input {
-  width: 333px;
+  width: 341px;
   height: 27.26px;
-  top: 306px;
-  left: 461px;
-  gap: 0px;
   border: 1px 0px 0px 0px;
   border-radius: 5px;
-  opacity: 0px;
   padding: 0;
   margin: 0;
   border: 1px solid #d3d3d3;
@@ -82,14 +75,10 @@
 }
 
 .modal__form_input1 {
-  width: 333px;
+  width: 341px;
   height: 27.34px;
-  top: 363px;
-  left: 461px;
-  gap: 0px;
   border: 1px 0px 0px 0px;
   border-radius: 5px;
-  opacity: 0px;
   padding: 0;
   margin: 0;
   border: 1px solid #d3d3d3;
@@ -99,10 +88,6 @@
 .modal__button {
   max-width: 358px;
   max-height: 50.15px;
-  top: 438.34px;
-  left: 461px;
-  gap: 0px;
-  opacity: 0px;
   padding: 0;
   background-color: #000;
   cursor: pointer;
