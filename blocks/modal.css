@@ -10,7 +10,7 @@
   padding: 0 19px;
 }
 
-.modal__opened {
+.modal--opened {
   display: flex;
 }
 
@@ -63,7 +63,7 @@
   opacity: 0px;
 }
 
-.modal__form_input {
+.modal__form-input--name {
   width: 341px;
   height: 27.26px;
   border: 1px 0px 0px 0px;
@@ -74,7 +74,7 @@
   padding: 0 0 0 15px;
 }
 
-.modal__form_input1 {
+.modal__form-input--description {
   width: 341px;
   height: 27.34px;
   border: 1px 0px 0px 0px;
