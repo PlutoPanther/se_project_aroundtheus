@@ -1,0 +1,136 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+  padding: 0 19px;
+}
+
+.modal__opened {
+  display: flex;
+}
+
+.modal__container {
+  position: relative;
+  padding: 36px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 430px;
+  max-height: 330px;
+}
+
+.modal__close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  left: calc(100% + 3px);
+  bottom: calc(100% + 3px);
+  width: 40px;
+  height: 40px;
+  background-image: url("../closeicon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal__close:hover {
+  opacity: 0.5;
+}
+
+.modal__heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-align: left;
+  margin: 0;
+}
+
+.modal__form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 358px;
+  height: 330px;
+  top: 195px;
+  left: 425px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.modal__form_input {
+  width: 333px;
+  height: 27.26px;
+  top: 306px;
+  left: 461px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #d3d3d3;
+  padding: 0 0 0 15px;
+}
+
+.modal__form_input1 {
+  width: 333px;
+  height: 27.34px;
+  top: 363px;
+  left: 461px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #d3d3d3;
+  padding-left: 15px;
+}
+
+.modal__button {
+  max-width: 358px;
+  max-height: 50.15px;
+  top: 438.34px;
+  left: 461px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 0;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  background-color: #2e2e2e;
+}
+.modal__button_text {
+  color: #fff;
+  width: 358px;
+}
+@media screen and (max-width: 800px) {
+  .modal__container {
+    max-width: 380px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .modal__container {
+    width: 282px;
+    height: 322px;
+  }
+  .modal__close {
+    width: 26px;
+    width: 26px;
+    left: calc(100% - 40px);
+    bottom: calc(100% + 20px);
+  }
+}
