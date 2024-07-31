@@ -86,8 +86,8 @@
 }
 
 .modal__button {
-  max-width: 358px;
-  max-height: 50.15px;
+  width: 358px;
+  height: 50.15px;
   padding: 0;
   background-color: #000;
   cursor: pointer;
@@ -96,7 +96,7 @@
 .modal__button:hover {
   background-color: #2e2e2e;
 }
-.modal__button_text {
+.modal__button-text {
   color: #fff;
   width: 358px;
 }
